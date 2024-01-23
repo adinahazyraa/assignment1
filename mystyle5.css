@@ -1,0 +1,48 @@
+body {
+    background-color: #B0DBDC;
+    font-family: verdana;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p 
+{
+    text-align: center;
+	background-color: #4495C2
+}
+
+hr 
+{
+    border: none;
+    border-top: 1px solid #000;
+}
+
+form 
+{
+    text-align: center;
+}
+
+input[type="submit"] 
+{
+    background-color: #0AA8CF;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+
+input[type="submit"]:hover 
+{
+    opacity: 0.8;
+}
+
+footer 
+{
+    text-align: center;
+    color: black;
+    background-color: #468EA4;
+}

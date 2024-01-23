@@ -1,0 +1,36 @@
+body 
+{
+    background-color: #F0A8CA;
+    font-family: verdana;
+    color: #D40053;
+}
+
+p 
+{
+    text-align: center;
+	background-color:#ED70AC
+}
+
+h1, h2 
+{
+    text-align: center;
+    color: #D40053;
+}
+
+img 
+{
+    display: block;
+    margin: auto;
+    max-width: 300px;
+    height: 300px;
+}
+
+a 
+{
+    color: black;
+}
+
+hr 
+{
+    border: 1px solid black;
+}

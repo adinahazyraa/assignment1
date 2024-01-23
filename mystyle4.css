@@ -1,0 +1,47 @@
+body 
+{
+	text-align: center;
+    background-color: #E6B6E0;
+    font-family: verdana;
+}
+
+h1, h2 
+{
+    color:#7E2E75;
+}
+
+p 
+{
+	background-color:#A8639F
+    color: #60117C;
+    font-family: verdana;
+}
+
+table 
+{
+    border: 1px solid black;
+    padding: 5px;
+    border-spacing: 0px;
+    width: 400px;
+    height: 310px;
+}
+
+th, td 
+{
+    border: 1px solid black;
+}
+
+hr 
+{
+    border: 1px solid black;
+}
+
+a 
+{
+    color: #60117C;
+}
+
+a:hover 
+{
+    color: #7E2E75;
+}

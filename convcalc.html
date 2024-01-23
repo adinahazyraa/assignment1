@@ -1,0 +1,60 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle5.css">
+<title> CONVERSION CALCULATOR </title>
+</head>
+<body>
+<p> <a href="homepage.html" target="_blank">HomePage</a> | <a href="conversion.html">What is Conversion?</a> | <a href="convcalc.html">Conversion Calculator</a></p>
+
+<h1>Conversion Calculator</h1>
+<hr>
+<h2>Temperature Conversion</h2>
+<hr>
+<p>Select a conversion type and enter a temperature</p>
+
+<script>
+function fahrenToCel(f)
+{
+    var temp = (f-32)*5/9;
+    return temp;
+}
+
+function celToFahren(c)
+{
+    var temp = (c*9/5)+32;
+    return temp;
+}
+
+function convertTemp()
+{
+    var conversionType = document.getElementById("conversionType").value;
+    var temp = prompt("What is the temperature?", "");
+    if (conversionType == "fToC") {
+        var convertedTemp = fahrenToCel(temp);
+        alert(temp + " degrees Fahrenheit is " + convertedTemp + " degrees Celsius.");
+    } else if (conversionType == "cToF") {
+        var convertedTemp = celToFahren(temp);
+        alert(temp + " degrees Celsius is " + convertedTemp + " degrees Fahrenheit.");
+    }
+}
+</script>
+
+<form id="d">
+    <p>
+       <select id="conversionType">
+       <option value="fToC">Fahrenheit to Celsius</option>
+       <option value="cToF">Celsius to Fahrenheit</option>
+       </select>
+    </p>
+    <p>
+       <button type="button" onClick="convertTemp()">CLICK TO START</button>
+    </p>
+</form>
+<hr>
+<footer>
+<p>
+<i>created by Haze<sup>&copy</sup> by 2024<i></p>
+</footer>
+<hr>
+</body>
+</html>
